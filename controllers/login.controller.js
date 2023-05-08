@@ -1,4 +1,5 @@
-const data = require('../db/news.json');
+const users = require('../db/users.json');
+const jwt = require('jsonwebtoken');
 const path = require('path');
 const { write } = require('../util/model');
 
